@@ -38,7 +38,7 @@
  
 	> Tutorial :
 	
-		#Include file as 【 require_once "PHP-HTML-HELPER/index.php"; 】
+		#Include file as 【 require_once "HELPER/index.php"; 】
 		
 		#You can see files included as [ var_dump(get_included_files()); ]
 		

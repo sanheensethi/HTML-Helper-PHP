@@ -1,0 +1,27 @@
+{
+  "name": "php-html-helper",
+  "version": "0.0.9",
+  "description": "This Is Full HTML Helper in php same html tags comes with html functions.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanheensethi/PHP-HTML-HELPER.git"
+  },
+  "keywords": [
+    "html",
+    "php",
+    "html",
+    "helpers",
+    "helper",
+    "helpers"
+  ],
+  "author": "Sanheen Sethi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanheensethi/PHP-HTML-HELPER/issues"
+  },
+  "homepage": "https://github.com/sanheensethi/PHP-HTML-HELPER#readme"
+}

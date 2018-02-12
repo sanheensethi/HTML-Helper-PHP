@@ -35,14 +35,8 @@
  * @filesource
  */
  
- // button { 0-Close 1-Open }
- function button($x=1,array $arrs = []){
- 	if($x==1){
- 		return "<button ".conv($arrs).">";
- 	}else if($x==0){
- 		return "</button>";
- 	}else{
- 		return "Choose Between 0 and 1 in button() , 1 is by default.";
- 	}
+ // label
+ function label($y="",array $arrs = []){
+ 	return "<label ".conv($arrs).">".$y."</label>";
  }
 ?>

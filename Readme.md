@@ -126,7 +126,7 @@
 		 	
 		 	*	</td>					-> echo td(0);
 		 	
- 		● Block-Inline Elements :: 
+ 		● Block/Inline Elements :: 
  			
  			*	<div>						-> echo div();
  			
@@ -151,6 +151,7 @@
  			* &lt;input type="text" class="form-c"&gt;						-> echo input(1,['type'=>'text','class'='form-c']);
  			
  			* &lt;textarea cols="30" rows="5"&gt;Default&lt;/textarea&gt;	-> echo textarea(['cols'=>'30','rows'=>'10'],"Default");
+ 
  > Soon More Functions Will Be Added.
  
  #Sanheen Sethi.		

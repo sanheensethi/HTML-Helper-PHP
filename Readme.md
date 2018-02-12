@@ -140,17 +140,17 @@
  		
  		● Form Elements
  			
- 			* <form method="post">								-> echo form(1,['method'=>'post']);
+ 			* <form method="post">											-> echo form(1,['method'=>'post']);
  			
- 			* </form>											-> echo form(0);
+ 			* </form>														-> echo form(0);
  			
- 			* <label for="th">Input Text</label>				-> echo label("Input Text",['for'=>'th']);
+ 			* &lt;label for="th"&gt;Input Text&lt;/label&gt;				-> echo label("Input Text",['for'=>'th']);
  			
- 			* <label>Input</label>								-> echo label('Input');
+ 			* &lt;label&gt;Input&lt;/label&gt;								-> echo label('Input');
  			
- 			* <input type="text" class="form-c">				-> echo input(1,['type'=>'text','class'='form-c']);
+ 			* &lt;input type="text" class="form-c"&gt;						-> echo input(1,['type'=>'text','class'='form-c']);
  			
- 			* <textarea cols="30" rows="5">Default</textarea>	-> echo textarea(['cols'=>'30','rows'=>'10'],"Default");
+ 			* &lt;textarea cols="30" rows="5"&gt;Default&lt;/textarea&gt;	-> echo textarea(['cols'=>'30','rows'=>'10'],"Default");
  > Soon More Functions Will Be Added.
  
  #Sanheen Sethi.		

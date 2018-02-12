@@ -126,7 +126,7 @@
 		 	
 		 	*	</td>					-> echo td(0);
 		 	
- 		● Block-Inline Elements
+ 		● Block-Inline Elements :: 
  			
  			*	<div>						-> echo div();
  			
@@ -138,7 +138,7 @@
  			
  			*	</span>						-> echo span(0);
  		
- 		● Form Elements
+		● Form Elements :: 
  			
  			* <form method="post">											-> echo form(1,['method'=>'post']);
  			

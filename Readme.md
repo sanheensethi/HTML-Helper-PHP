@@ -45,41 +45,41 @@
 			Firstly Remember { 1->OPEN ; 0->CLOSE }
 			1 is by default
 			
-		● HTML TAG ::
+		> HTML TAG ::
 			<html>  ->  html();
 			</html> ->  html(0);
 		
-		● HEAD TAG ::
+		> HEAD TAG ::
 			<head>	->  head();
 			</head>	->  head(0);
 		
-		● BODY TAG ::
+		> BODY TAG ::
 			<body>	->  body();
 			</body>	->	body(0); 
 		 
 		 We can also give extra attributes to Body Tag as ::
 		 	
 		 	<body onload="function()">	<- body(1,['onload'=>'function']);
-		● Script ::
+		> Script ::
 		 
-		● Break ::
+		> Break ::
 		 	
 		 	<br>			-> echo br();
 		 	<br><br> 		-> echo br(2);
 		 	<br><br>....	-> echo br(n); Where n = 2,3,4,5,....
 		 
-		● Horizontal Line ::
+		> Horizontal Line ::
 		 	
 		 	<hr>				-> echo hr();
 		 	<hr class='hori'>	-> echo hr(['class'=>'hori']);
 		 
-		● Space ::
+		> Space ::
 		 
 		 	&nbsp;				-> echo space();
 		 	&nbsp;&nbsp;		-> echo space(2);
 		 	&nbsp;&nbsp;....	-> echo space(n); Where n = 2,3,4,5....
 		 	
-		● HEADINGS ::
+		> HEADINGS ::
 		 	
 		 	<h1>data</h1>	-> echo h1("data");
 		 	<h2>data</h2>	-> echo h2("data");
@@ -98,7 +98,7 @@
 		 		
 		 		Similarly for other function , Remeber if you wanna give arguments then always give 1st argumemt.
 		
-		● Text Formatting ::
+		> Text Formatting ::
 		 	
 		 	* <b>Text</b>	-> echo b("Hello"); <- No extra Parameters will be given
 		 	
@@ -108,7 +108,7 @@
 		 	
 		 			also used as u(b(i("Hello"))); <- data given is underlined , bold and italic
 		 	
-		● Tables ::
+		> Tables ::
 		 	
 		 	*	<table class="table">	-> echo table(1,['class'=>'table']);
 		 	
@@ -126,7 +126,7 @@
 		 	
 		 	*	</td>					-> echo td(0);
 		 	
- 		● Block/Inline Elements :: 
+ 	    > Block/Inline Elements :: 
  			
  			*	<div>						-> echo div();
  			
@@ -138,19 +138,19 @@
  			
  			*	</span>						-> echo span(0);
  		
-		● Form Elements :: 
+	    > Form Elements :: 
  			
  			* <form method="post">											-> echo form(1,['method'=>'post']);
  			
  			* </form>														-> echo form(0);
  			
- 			* &lt;label for="th"&gt;Input Text&lt;/label&gt;				-> echo label("Input Text",['for'=>'th']);
+ 			* <label for="th">Input Text</label>;				-> echo label("Input Text",['for'=>'th']);
  			
- 			* &lt;label&gt;Input&lt;/label&gt;								-> echo label('Input');
+ 			* <label>Input</label>								-> echo label('Input');
  			
- 			* &lt;input type="text" class="form-c"&gt;						-> echo input(1,['type'=>'text','class'='form-c']);
+ 			* <input type="text" class="form-c">						-> echo input(1,['type'=>'text','class'='form-c']);
  			
- 			* &lt;textarea cols="30" rows="5"&gt;Default&lt;/textarea&gt;	-> echo textarea(['cols'=>'30','rows'=>'10'],"Default");
+ 			* <textarea cols="30" rows="5">Default</textarea>	-> echo textarea(['cols'=>'30','rows'=>'10'],"Default");
  
  > Soon More Functions Will Be Added.
  
